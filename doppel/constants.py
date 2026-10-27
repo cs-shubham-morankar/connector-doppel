@@ -1,9 +1,22 @@
 """
 Copyright start
 MIT License
-Copyright (c) 2025 Fortinet Inc
+Copyright (c) 2026 Fortinet Inc
 Copyright end
 """
+
+DOPPEL_TOKEN_URL = 'https://api.doppel.com/oauth/token'
+DOPPEL_AUDIENCE = 'doppel-external'
+DOPPEL_GRANT_TYPE = 'client_credentials'
+
+AUTH_TYPE_API_KEY = 'API Key'
+AUTH_TYPE_OAUTH = 'OAuth'
+
+API_VERSION_V1 = 'v1/'
+API_VERSION_V2 = 'v2/'
+
+TOKEN_LIFETIME = 86400
+TOKEN_REFRESH_BUFFER = 300
 
 ALERT_STATE = {
     "Doppel Review": "doppel_review",
